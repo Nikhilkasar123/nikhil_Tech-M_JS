@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var dal=["mataki","Tur","Moong","Masur"];
+        dal.forEach(function(daal,index)
+        {
+            console.log(index);
+            console.log(daal);
+        });
+         // for in loop (with arrays)
+         var dal=["mataki","Tur","Moong","Masur"];
+         for(var sample in dal){
+             console.log('the for in values are',sample);
+         }
+         // for of loop
+         var dal=["mataki","Tur","Moong","Masur"];
+         for(var sample1 of dal){
+             console.log('the for of values',sample1);
+         }
+ // for in loop (for objects)
+ var person = {
+    name: "sid",
+    age: 18,
+    comapany: "abc",
+  };
+
+  for (var myvalues in person) {
+    console.log("Key is", myvalues); //it retrieves the keys
+
+    //it retrieves both the key and values
+    console.log("person is", person[myvalues]);
+  }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
